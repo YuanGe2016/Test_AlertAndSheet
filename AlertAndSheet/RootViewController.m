@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  RootViewController.m
 //  AlertAndSheet
 //
 //  Created by Bytedance on 2020/5/21.
 //  Copyright © 2020 Bytedance. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RootViewController.h"
 
-@interface ViewController ()
+@interface RootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation RootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -47,5 +47,15 @@
     
     [self presentViewController:alertController animated:true completion:nil];
 }
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end
