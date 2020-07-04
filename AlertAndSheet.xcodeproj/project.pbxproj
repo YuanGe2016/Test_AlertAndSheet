@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B038AEB24B08F5C00AB82AC /* KVCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B038AEA24B08F5C00AB82AC /* KVCTest.m */; };
 		2BCD337A2476757500673250 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD33792476757500673250 /* AppDelegate.m */; };
 		2BCD33802476757500673250 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD337F2476757500673250 /* ViewController.m */; };
 		2BCD33852476757600673250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD33842476757600673250 /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B038AE924B08F5C00AB82AC /* KVCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCTest.h; sourceTree = "<group>"; };
+		2B038AEA24B08F5C00AB82AC /* KVCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCTest.m; sourceTree = "<group>"; };
 		2BCD33752476757500673250 /* AlertAndSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertAndSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCD33782476757500673250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2BCD33792476757500673250 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				2BCD338A2476757600673250 /* main.m */,
 				2BCD3391247681BF00673250 /* RootViewController.h */,
 				2BCD3392247681BF00673250 /* RootViewController.m */,
+				2B038AE924B08F5C00AB82AC /* KVCTest.h */,
+				2B038AEA24B08F5C00AB82AC /* KVCTest.m */,
 			);
 			path = AlertAndSheet;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				2BCD33802476757500673250 /* ViewController.m in Sources */,
 				2BCD337A2476757500673250 /* AppDelegate.m in Sources */,
 				2BCD338B2476757600673250 /* main.m in Sources */,
+				2B038AEB24B08F5C00AB82AC /* KVCTest.m in Sources */,
 				2BCD3393247681BF00673250 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
